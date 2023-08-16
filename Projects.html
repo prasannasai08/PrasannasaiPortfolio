@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Portfolio</title>
+    <link rel="icon" href="icon.png">
+    <div>
+        <a href="index.html" style="color: white;">Home</a>
+    </div>
+    <style>
+        #div2{
+           margin-left: 50.8%;
+           margin-top: -558px;
+        }
+        a{
+            font-size: 20px;
+        }
+        #div1,a{
+            margin-right: 50%;
+        }
+        h1{
+            color: teal;
+        }
+        p{
+            text-align: justify;
+            color: gray;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+    </style>
+</head>
+<body bgcolor="#0e0457">
+    <div id="div1">
+        <h1>MY PROJECT</h1>
+        <p>
+            My project name is Enhancing Cyber Security in Modern Internet of things (IoT) Using Intrusion Prevention Algorithm for IoT (IPAI).
+            IOT (Internet of Things) are small devices which can send or receive data through internet and this devices are using in various fields such as health care (doctors will embed IOT devices in patient body or can be used as watch to monitor patient BP, Heart Rate etc and send that information to hospital server for monitoring), agriculture fields, military area etc. This small devices runs on batteries and infrastructure less as it can configure themselves by finding neighbours to send or receive data. Due to infrastructure less (require no monitoring of human) this small devices security is at risk as we cannot include heavy computation security algorithms in small devices due to battery power.
+            Attackers can intrude any devices and monitor all data and then perform mischievous activities by making himself as neighbour and then collect all packets and drop them or continuously send dummy packet to jam the network. This attacks are of two types INSIDER and OUTSIDER in INSIDER attack attacker steal information from genuine node and misuse it and in OUTSIDER attack attacker becomes neighbour of genuine node and perform mischievous activities.
+            As we cannot include intrusion detection system in small devices so to provide security to IOT devices author of this paper introduce simple concept called LOG monitoring. In this propose approach two types of nodes work together called NORMAL NODES and IDS NODES. Normal nodes will send and receive packets and all this activities will be monitor by IDS node and generate a report. In this report we will have Node id, event type (whether nodes perform proper communication or drop the packets this we can now by receiving ACK from nodes) and time stamp. Generated log report will be send to STATION and STATION will analyse this report to know which nodes are performing well and which nodes are doing malicious activities. By using this information station will remove such IOT nodes from networks. If attacker node drop/jam packets more than given threshold than that IOT node will be consider as attacker.
+        </p>
+    </div>
+    <div id="div2">
+        <img src="project.jpg" alt="" width="671.8px" height="632px">
+    </div>
+</body>
+</html>
